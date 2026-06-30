@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -12,8 +11,6 @@ df
 
 df.isnull().sum()
 
-# Commented out IPython magic to ensure Python compatibility.
-# %matplotlib inline
 plt.xlabel('year')
 plt.ylabel('per capita income (US$)')
 plt.scatter(df.year,df["per capita income (US$)"],color='red',marker='+')
